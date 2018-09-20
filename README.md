@@ -5,7 +5,7 @@ A program analyzing the performance and reporting the outcomes of running Prim's
 Ethan Craigo, Peter Seung Min Lee
 
 ## Background
-Prim's algorithm is an algorithm that efficiently finds minimum spanning trees for undirected graphs with various edge weights. We wanted to investigate its performance on randomly generated complete graphs with varying edge weights and numbers of vertices, and additionally wanted to find the sum of all of the edge weights in the minimum spanning trees that the algorithm returned.
+Prim's algorithm is an algorithm that efficiently finds minimum spanning trees for undirected graphs with various edge weights. We wanted to investigate its performance on randomly generated complete graphs with varying edge weights and numbers of vertices, and additionally wanted to find the sums of all of the edge weights in the minimum spanning trees that the algorithm returned.
 
 ## Detailed Description
 We designed a program that, in a specified number of trials, efficiently generates complete graphs with an also specified number of vertices. A user can choose to generate graphs with uniformly random edge weights between 0 and 1. The user can also choose to generate graphs in which vertices are given random positions in one, two, three, or four-dimensional space (all coordinates between 0 and 1) and the edge weights are the Euclidean distances between them.
